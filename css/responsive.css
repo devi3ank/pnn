@@ -1,0 +1,171 @@
+@media(max-width: 1600px){
+.container-home {max-width: 1140px;}
+.regis_head {margin-top: 10px;}
+.regis_head h2 {font-size: 20px;}
+.regis_body label {font-size: 18px; margin: 3px 0 0;}
+.regis_body .regis_input {height: 30px; line-height: 30px; font-size: 18px;}
+.regis_body .regis_select {height: 30px; line-height: 30px; font-size: 18px;}
+.regis_body .regis_textarea {height: 30px; font-size: 18px; height: 70px;}
+
+.select-items div, .select-selected {height: 30px; line-height: 30px; font-size: 18px;}
+.select-selected:after {width: 30px;}
+ .select-selected:after,.select-selected.select-arrow-active:after  {background-size: 10px;}
+ .register {width: 35%;} 
+ .regis_body {padding: 15px 20px 40px;}
+ .logo_pnn {width: 75%;}
+
+ .txthead_img {position: absolute; top: 45px; left: 0; width: 35%;}
+ .regis_button {width: 220px; font-size: 22px; height: 50px; left:calc(50% - 110px); bottom: -25px;}
+ .regis_in {margin-top: -25px;}
+
+/*.pad_section {padding: 45px 0;}
+ #sec_preview .txthead h2 {font-size: 40px;}
+ #sec_preview .txthead h3 {font-size: 28px;}
+ #sec_preview {border-top: 6px solid #fff;}
+ .btn_reserve {width: 300px; height: 60px; line-height: 60px; font-size: 30px;}*/
+}
+
+@media(max-width: 1440px){
+.container-home {max-width: 1140px;}
+.regis_head h2 {font-size: 16px;}
+.regis_body label {font-size: 14px;}
+.regis_body .regis_input {height: 20px; line-height: 20px; font-size: 14px;}
+.regis_body .regis_select {height: 20px; line-height: 20px; font-size: 14px;}
+.regis_body .regis_textarea {height: 20px; font-size: 14px; height: 70px;}
+
+.select-items div, .select-selected {height: 20px; line-height: 20px; font-size: 14px;}
+.select-selected:after {width: 20px;}
+ .select-selected:after {background-size: 10px;}
+ .register {width: 30%;} 
+ .regis_body {padding: 15px 20px 40px;}
+ /*.logo_pnn {width: 60%;}*/
+
+/* #sec_preview .txthead h2 {font-size: 35px;}
+ #sec_preview .txthead h3 {font-size: 23px;}
+ .btn_reserve { width: 270px; height: 50px; line-height: 50px;  font-size: 28px; margin-top: 0;}*/
+
+
+}
+
+@media(max-width: 1199px){
+.container-home {max-width: 960px;}
+.register { width: 350px;}
+
+#sec_preview .txthead h2 {font-size: 36px;}
+#sec_preview .txthead h3 {font-size: 24px;}
+.btn_reserve {width: 250px; font-size: 27px;}
+}
+
+@media(max-width: 991px){
+	.container-home {max-width: 960px;}
+	.txthead {max-width: 550px; margin:0 auto;}
+	.register { width: 100%; max-width: 550px; margin: 0 auto 50px; display: block; height: auto;}
+	.logo_pnn {display: none;}
+	.txthead_img {position: static; margin-top: 0; width: 60%;}
+	.regis_in {margin-top: 0;}
+	#sec_register {/*display: flex; align-items: center;*/ height: auto;}
+
+	.regis_head h2 {font-size: 22px;}
+.regis_body label {font-size: 16px;}
+.regis_body .regis_input {height: 40px; line-height: 40px; font-size: 16px;}
+.regis_body .regis_select {height: 40px; line-height: 40px; font-size: 16px;}
+.regis_body .regis_textarea {height: 40px; font-size: 16px; height: 100px;}
+
+.select-items div, .select-selected {height: 40px; line-height: 40px; font-size: 16px;}
+.select-selected:after {width: 40px;}
+.logo_pnn_mb {display: block; display: block; width: 40%; margin-right: 0;  margin-left: auto;}
+
+/*.preview_in {max-width: 550px; margin:0 auto;}
+.img_preview {padding: 15px 30px;}*/
+
+	#sec_preview .txthead {max-width: 100%; margin:0 auto;}
+
+	footer {font-size: 15px;}
+}
+
+@media(max-width: 767px){
+	/*.container-home {max-width: 720px;}*/
+
+	.link_footer {width: 50%; float: left; text-align: left; display: block; margin:12px 0 0;}
+	.link_footer span {font-size: 18px;}
+	.link_footer img {height: 20px;}
+
+	footer {padding: 15px 0;}
+	.copyright {float: none; text-align: center; padding: 0 15px;}
+	.policy {float: none; text-align: center; padding: 0 15px;}
+}
+
+@media(max-width: 575px){
+	.container-home {max-width: 540px;}
+
+
+	#sec_register {display: flex; align-items: center; height: 100vh;height: calc(var(--vh, 1vh) * 100); margin-bottom: 0;}
+	.register {margin-bottom: 0;}
+	.regis_head h2 {font-size: 14px;}
+	.regis_body { padding: 5px 20px 25px;}
+.regis_body label {font-size: 14px;}
+.regis_body .regis_input {height: 25px; line-height: 25px; font-size: 14px;}
+.regis_body .regis_select {height: 25px; line-height: 25px; font-size: 14px;}
+.regis_body .regis_textarea {height: 25px; font-size: 14px; height: 65px;}
+
+.select-items div, .select-selected {height: 25px; line-height: 25px; font-size: 14px;}
+.select-selected:after {width: 25px;}
+.regis_button {width: 180px; font-size: 18px;  height: 40px; left: calc(50% - 90px); bottom: -20px;}
+.logo_pnn_mb {width: 30%; position: absolute; right: 15px;}
+
+/*#sec_preview .txthead h2 {font-size: 24px;}
+#sec_preview .txthead h3 {font-size: 16px;}
+.img_preview { padding: 5px 10px;}
+.txthead_img {width: 55%;}
+
+.btn_reserve {
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    margin-top: 0;
+}*/
+
+#sec_preview .txthead h2 {font-size: 24px;}
+#sec_preview .txthead h3 {font-size: 16px;}
+.btn_reserve {width: 200px;font-size: 22px;height: 40px;line-height: 40px;}
+	.googleMap {width: 100%; height: 250px;}
+
+.bg_about{
+	width: 900px;
+    position: relative;
+    left: calc(50% - 450px);
+    }
+
+    .about_txt h2 { font-size: 30px;}
+    .about_txt p {font-size:22px;}
+
+
+    .event_txt h2 {font-size: 40px;}
+    .event_txt h3 {font-size: 22px;}
+    .box-sub {padding: 0 20px; margin-top: 12px;}
+    .box-sub:after {width: 2px;}
+    .event_table h2 {font-size: 18px; width: 260px; line-height: 40px; height: 40px;}
+    .event_table table td {font-size: 15px;}
+    .event_table table td:nth-child(2) {padding-left: 25px;}
+    .event_table table td ul {padding-left: 20px;}
+    .event_calendar h2 {font-size: 15px; width: calc(100% - 35px);}
+    .event_calendar img {width: 30px;}
+    .event_calendar {padding-left: 43px;}
+
+    #sec_footer h2 {font-size: 15px; margin-top: 8px;}
+    .link_footer span {font-size: 14px;}
+    footer {font-size: 12px;}
+}
+
+@media(max-width: 320px){
+	
+}
+
+
+
+
+@media(max-height: 580px){
+	#sec_register {height: 580px;}
+	/*.register {height: 580px;}*/
+}
